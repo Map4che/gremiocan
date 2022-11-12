@@ -1,0 +1,45 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpaperaccess.com/full/2314950.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.recovery{
+    width: 200px;
+    height: 250px;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    background: black;
+    padding: 70px 30px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.recovery h1{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.recovery .cachorroDuda{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.recovery .boton{
+    width: 60px;
+    height: 30px;
+    background: blue;
+    color: #fff;    
+}

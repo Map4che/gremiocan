@@ -75,6 +75,9 @@ public class UserService {
                if(user.getBussiness()!=null){
                    u.get().setBussiness(user.getBussiness());
                }
+               if(user.getProve()!=null){
+                   u.get().setProve(user.getProve());
+               }
                return userRepository.save(u.get());
            }
        }return user;
