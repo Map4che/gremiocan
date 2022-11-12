@@ -1,0 +1,22 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpaperaccess.com/full/2314950.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.registro{
+    width: 1000px;
+    height: 750px;
+    top: 2%;
+    left: 20%;
+    position: absolute;
+    background: darkslategrey;
+    padding: 70px 30px;
+    border-radius: 15px;
+    color: #fff;
+}
